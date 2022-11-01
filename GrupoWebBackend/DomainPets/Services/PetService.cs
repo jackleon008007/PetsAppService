@@ -125,7 +125,10 @@ namespace GrupoWebBackend.DomainPets.Services
             return await _petRepository.ListPublicationsTypeAttention(type, attention);
 
         }
+        
+       // se realizo algunos cambios al programa 
 
+        
         public async Task<IEnumerable<Pet>> ListPublicationsTypeGender(string type, string gender)
         {
             return await _petRepository.ListPublicationsTypeGender(type, gender);
@@ -137,6 +140,9 @@ namespace GrupoWebBackend.DomainPets.Services
             return await _petRepository.ListPublicationsTypeGenderAttention(type, gender, attention);
 
         }
+
+        //se concluyo satisfactoriamente
+       
     }
 }
 
