@@ -91,8 +91,6 @@ namespace GrupoWebBackend.Tests
            BaseUri = new Uri($"https://localhost:{port}/api/v{version}/publications/{id}");
            Client = _factory.CreateClient(new WebApplicationFactoryClientOptions{BaseAddress = BaseUri});
         }
-
-
         [When(@"An update Advertising request is sent")]
         public void WhenAnUpdateAdvertisingRequestIsSent(Table table)
         {

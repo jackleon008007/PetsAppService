@@ -19,6 +19,7 @@ So that I can get buyers
           | 29/09/2021 16:20 |                | add description | 10       | https://www.lasamarillasdezipaquira.com/oc-content/uploads/1/352.jpg | true     | 1      |
         Then An Advertisement response with status 400 is received
 	
+	
     Scenario: Delete An Advertisement 
         Given the endpoint https://localhost:5001/api/v1/Advertisements/1 is available.
         When an a deleting request is sent
@@ -30,3 +31,6 @@ So that I can get buyers
           | DateTime         | Title | Description     | Discount | UrlToImage                                                           | Promoted | UserId |
           | 29/09/2021 16:20 | hola  | add description | 10       | https://www.lasamarillasdezipaquira.com/oc-content/uploads/1/352.jpg | true     | 1      | 
         Then a response with status 200 is received
+	
+	
+	
