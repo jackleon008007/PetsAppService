@@ -15,8 +15,11 @@ namespace GrupoWebBackend.DomainAdvertisements.Services
     public class AdvertisementService: IAdvertisementService
     {
         private IAdvertisementRepository _advertisementRepository;
+        
         private IUserRepository _userRepository;
         private IUnitOfWork _unitOfWork;
+       
+       
        
         public AdvertisementService(IAdvertisementRepository advertisementRepository,IUserRepository userRepository,IUnitOfWork unitOfWork)
         {
@@ -33,6 +36,8 @@ namespace GrupoWebBackend.DomainAdvertisements.Services
         {
             return await _advertisementRepository.FindByUserId(userId);
         }
+
+
 
         public async Task<AdvertisementResponse> SaveAsync(Advertisement advertisement)
         {
