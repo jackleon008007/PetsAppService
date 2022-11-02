@@ -10110,19 +10110,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ricar\\.nuget\\packages\\": {}
+    "C:\\Users\\dylan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ricar\\Desktop\\GrupoWebBackend\\GrupoWebBackend.Tests\\GrupoWebBackend.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\dylan\\OneDrive\\Documents\\arquitecturagit\\backend\\GrupoWebBackend.Tests\\GrupoWebBackend.Tests.csproj",
       "projectName": "GrupoWebBackend.Tests",
-      "projectPath": "C:\\Users\\ricar\\Desktop\\GrupoWebBackend\\GrupoWebBackend.Tests\\GrupoWebBackend.Tests.csproj",
-      "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ricar\\Desktop\\GrupoWebBackend\\GrupoWebBackend.Tests\\obj\\",
+      "projectPath": "C:\\Users\\dylan\\OneDrive\\Documents\\arquitecturagit\\backend\\GrupoWebBackend.Tests\\GrupoWebBackend.Tests.csproj",
+      "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dylan\\OneDrive\\Documents\\arquitecturagit\\backend\\GrupoWebBackend.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10136,8 +10136,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ricar\\Desktop\\GrupoWebBackend\\GrupoWebBackend\\GrupoWebBackend.csproj": {
-              "projectPath": "C:\\Users\\ricar\\Desktop\\GrupoWebBackend\\GrupoWebBackend\\GrupoWebBackend.csproj"
+            "C:\\Users\\dylan\\OneDrive\\Documents\\arquitecturagit\\backend\\GrupoWebBackend\\GrupoWebBackend.csproj": {
+              "projectPath": "C:\\Users\\dylan\\OneDrive\\Documents\\arquitecturagit\\backend\\GrupoWebBackend\\GrupoWebBackend.csproj"
             }
           }
         }
@@ -10203,7 +10203,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -10212,7 +10213,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
