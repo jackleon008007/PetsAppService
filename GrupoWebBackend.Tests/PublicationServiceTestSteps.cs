@@ -25,10 +25,12 @@ namespace GrupoWebBackend.Tests
         {
             get;
             set;
+            
         }
         public PublicationServiceTestSteps(WebApplicationFactory<Startup> factory)
         {
             _factory = factory;
+            
         }
         
         [Given(@"the endpoint https://localhost:(.*)/api/v(.*)/publications is available")]
