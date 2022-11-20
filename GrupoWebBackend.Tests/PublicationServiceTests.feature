@@ -37,10 +37,12 @@ So that it is available when wanting to see my publications.
       When An a delete request is sent   
       Then a response with status 200 is received
       
+      
   Scenario: Delete a publication go wrong
         Given the endpoint https://localhost:5001/api/v1/publications/1 is not available
         When An a delete request is sent   
         Then a response with status 400 is received
+        
         
     Scenario: Get all current publications as a vet
         Given the endpoint https://localhost:5001/api/v1/Users/3/publications is available now
