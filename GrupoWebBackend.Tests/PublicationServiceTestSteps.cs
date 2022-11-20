@@ -91,7 +91,7 @@ namespace GrupoWebBackend.Tests
         
 
 
-        //desde este aparatado se comenzara a modificar
+        //desde este aparatado se comenzara a modificar encargado maximo
         [When(@"A get publications by user request is sent")]
         public void WhenAGetPublicationsByUserRequestIsSent()
         {
