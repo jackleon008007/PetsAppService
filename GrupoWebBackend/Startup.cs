@@ -62,10 +62,13 @@ namespace GrupoWebBackend
             services.AddRouting(options => options.LowercaseUrls = true);
             
             // Configure AppSettings object 
+            
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
+            //builder.Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseInMemoryDatabase("GrupoWebBackend-api-in-memory");
+                //options.UseMySQL("server=localhost;user=root;password=Lp3y9E6X;port=3306;database=petslocaldb");
             });
             services.AddSwaggerGen(c =>
             {
