@@ -57,7 +57,6 @@ namespace GrupoWebBackend
             services.AddCors();
             
             services.AddControllers();
-            
             // Lowercase Endpoints
             services.AddRouting(options => options.LowercaseUrls = true);
             
