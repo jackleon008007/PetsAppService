@@ -61,6 +61,7 @@ namespace GrupoWebBackend
             // Lowercase Endpoints
             services.AddRouting(options => options.LowercaseUrls = true);
             
+            
             // Configure AppSettings object 
             
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
